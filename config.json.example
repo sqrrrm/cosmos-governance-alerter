@@ -1,0 +1,29 @@
+{
+    "alerts_config": {
+      "pagerduty_enabled": false,
+      "pagerduty_integration_key" : "your_pagerduty_integration_key",
+      "discord_enabled": false,
+      "discord_webhook_url": "https://discord.com/api/webhooks/yourwebhook"
+    },
+    "app_config": {
+      "timeout": 5,
+      "votes_file": "votes.json",
+      "loglevel" : "INFO",
+      "logformat": "text",
+      "default_pagination_limit": 100,
+      "prometheus_port": 9095
+    },
+    "chain_config": {
+      "umee": {
+        "api_endpoint": "https://rest.cosmos.directory/umee/cosmos/gov/v1beta1/proposals",
+        "network": "mainnet",
+        "explorer_governance": "https://www.mintscan.io/umee/proposals",
+        "pagination_limit": 50
+      },
+      "axelar": {
+        "api_endpoint": "https://rest.cosmos.directory/axelar/cosmos/gov/v1beta1/proposals",
+        "network": "mainnet",
+        "explorer_governance": "https://axelar.explorers.guru/proposal"
+      }
+    }
+}
