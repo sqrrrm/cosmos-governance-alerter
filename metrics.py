@@ -5,3 +5,4 @@ governance_votes_api_req_status_counter = Counter(
     "Count the number of success or failed api call for a given network",
     ["name", "network", "api_endpoint", "status"],
 )
+
