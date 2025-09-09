@@ -1,4 +1,4 @@
-# Governance Vote Alerter
+# Governance Vote Alerter:
 
 ## Description
 Cosmos Governance vote alerter
